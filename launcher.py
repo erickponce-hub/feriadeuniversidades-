@@ -55,21 +55,21 @@ UNIVERSIDADES = [
         "area": "Ingeniería Industrial y de Sistemas",
         "url": "https://uvm.mx/oferta-academica/licenciaturas-ingenierias/ingenierias-uvm/ingenieria-industrial-y-de-sistemas",
         "img": "uvm.png",
-        "resumen": "Ofrece muchas facilidades de ingreso, buenas becas tomando en cuenta el promedio, doble titulación en España y opciones de intercambio"
+        "resumen": "La UVM fue la universidad que más me interesó porque ofrece muchas facilidades para ingresar, como el pase directo y becas de hasta el 70% según el promedio. Tiene laboratorios modernos, certificaciones internacionales y la posibilidad de una doble titulación con la Universidad Europea de Madrid. Además, cuenta con una bolsa de trabajo de más de cuatro mil empresas y opciones de intercambio en varios países. En general, me parece una universidad muy completa y con buenas oportunidades para crecer profesionalmente."
     },
     {
         "nombre": "ITAM",
         "area": "Ingeniería Industrial y en Sistemas Inteligentes",
         "url": "https://carreras.itam.mx/ingenieria-industrial/",
         "img": "itam.png",
-        "resumen": "Ofrece becas altas y su prestigio académico, pero su examen de admisión es exigente y el proceso de ingreso más complicado."   
+        "resumen": "El ITAM me pareció una universidad con mucho prestigio y buenas oportunidades. Su proceso de admisión es más exigente porque se presenta un examen que también sirve para aplicar a becas muy atractivas, como la Baillères que puede cubrir hasta el 100%. Tiene más de 160 convenios internacionales y una alta empleabilidad. Sin embargo, sentí que los representantes no tenían tanta información sobre las ingenierías, lo cual me dejó algunas dudas. Aun así, es una opción muy buena por su nivel académico y las becas que ofrece."   
     },
     {
         "nombre": "Universidad Panamericana",
         "area": "Ingeniería Industrial e Innovación Basada en Datos",
         "url": "https://mkt.up.edu.mx/ingenieria-industrial",
         "img": "up.png",
-        "resumen": "Tiene un programa completo y bueno, aunque la carrera es más larga y el proceso de admisión y becas resulta más limitado."
+        "resumen": "La Universidad Panamericana me pareció una opción de calidad, aunque con un proceso de ingreso más complicado. La carrera dura diez semestres, lo que la hace más larga que en otras universidades. Para entrar se requiere examen y entrevista, y las becas dependen del puntaje y la disponibilidad. Su plan de estudios es muy completo, pero considero que el proceso y la duración son desventajas. Aun así, es una universidad con una formación sólida y reconocida."
     },
 ]
 # Pre-carga de imágenes (con fallback)
