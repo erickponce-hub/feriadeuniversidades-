@@ -166,8 +166,11 @@ class Menu(Scene):
             # Click sobre tarjeta de universidad
             for rect, u in self.card_rects:
                 if rect.collidepoint(event.pos):
+                    global visit_count
+                    visit_count += 1
                     set_scene(Detail(u))
                     break
+
                 
     def update(self, dt): ...
     
@@ -196,7 +199,8 @@ class Menu(Scene):
             mouse_over = btn.collidepoint(pygame.mouse.get_pos())
             pygame.draw.rect(surf, (70, 70, 110) if mouse_over else (50, 50, 85), btn, border_radius=10)
             draw_text(surf, "Ver más", FONT_SMALL, (240, 240, 250), btn.center)
-            
+            draw_text(surf, f"Visitas totales: {visit_count}", FONT_SMALL, (180, 180, 200), (WIDTH - 150, 30))
+
         for b in self.buttons:
             b.draw(surf)
             
@@ -290,6 +294,9 @@ current_scene = None
 def set_scene(scene):
     global current_scene
     current_scene = scene
+
+# Contador de visitas global
+visit_count = 0
     
 def main():
     set_scene(Splash(next_scene_callback=set_scene))
